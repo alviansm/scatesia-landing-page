@@ -1,6 +1,10 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 
+html {
+    scroll-behavior: smooth;
+}
+
 .menu { 
     @include gradient;
 
@@ -11,6 +15,7 @@
             color: $white !important;
             text-transform: capitalize;
             font-weight: 600;
+            transition: 400ms all linear;
         }
     }
 }

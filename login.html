@@ -9,50 +9,49 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assests/css/style.css">
     <link rel="stylesheet" href="./assests/css/fontawesome.css">
+    <link rel="stylesheet" href="./scss/sign-in.scss">
 
-    <title>Registrasi - 2Dev</title>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <title>2Dev | Masuk</title>
   </head>
-  <body>
-  <!-- Form section -->
-  <section id="registration" class="registration-page">
-    <div class="main-container">
-      <div class="box-title">
-        <a href="./index.html" class="goto-main-page">
-          <img src="./images/navbar-logo.png" alt="2Dev-Logo">
-          <img src="./images/navbar-logo-text.png" alt="2Dev-logo-text">
+  <body class="text-center login-body">
+    <main class="form-signin">
+      <form>
+        <a href="./index.html">
+          <img class="mb-4" src="./images/navbar-logo.png" alt="" width="86" height="86">
         </a>
-        <p class="title-description">
-          Tim developer profesional untuk segala kebutuhan digital Anda
-        </p>
-      </div> <!-- End of .box-title -->
-      <div class="box-registration">
-        <div class="box-form">
-          <div class="toogle">
-            <div id="bg-btn"></div>
-            <button class="btn-toogle btn-toogle--login">Masuk</button>
-            <button class="btn-toogle btn-toogle--signup">Daftar</button>
-          </div>
-          <form id="login" class="input-form">
-            <input type="text" placeholder="Username" required>
-            <input type="password" placeholder="Kata Sandi" required>
-            <div class="box-remember-me">
-              <input type="checkbox" name="cb-remember-me" class="cb-remember-me">
-              <label for="cb-remember-me" class="label-remember-me">Simpan akun</label>
-            </div> 
-            <div class="box-submit">
-              <a href="#" class="text-link">Lupa password?</a>
-              <button type="submit">Oke</button>
-            </div>
-          </form>
-        </div> <!-- End of .box-form -->
-        <div class="box-info">
-          <button type="submit" class="btn-submit">Masuk dengan akun Google</button>    
-          <button type="submit" class="btn-submit">Masuk dengan akun Facebook</button>  
-          <button type="submit">Gabung Discord</button>
-          <button type="submit">Daftar dengan email</button>
-        </div> <!-- End of .box-info -->
-      </div> <!-- End of .box-registration -->
-    </div>
-  </section><!-- End of registration sections-->
+        <h1 class="h3 mb-3 fw-normal">Silahkan Masuk</h1>
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Alamat Email</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Simpan akun ke komputer ini
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Masuk</button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2Dev 2021 - all rights reserved</p>
+      </form>
+    </main>
   </body>
 </html>
