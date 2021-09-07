@@ -27,7 +27,7 @@
       }
     </style>
 
-    <title>2Dev | Masuk</title>
+    <title>2Dev | Daftar</title>
   </head>
   <body class="text-center login-body">
     <main class="form-signin">
@@ -35,23 +35,36 @@
         <a href="./index.html">
           <img class="mb-4" src="./images/navbar-logo.png" alt="" width="86" height="86">
         </a>
-        <h1 class="h3 mb-3 fw-normal">Silahkan Masuk</h1>
+        <h1 class="h3 mb-3 fw-normal">Silahkan Daftar</h1>
         <p class="red-message"><em>*Hanya untuk admin, silahkan langsung kontak kami untuk mendiskusikan proyek anda...</em></p>
         <div class="form-floating">
           <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-          <label for="floatingInput">email_anda@email.com</label>
+          <label for="floatingInput">Alamat Email</label>
         </div>
         <div class="form-floating">
+            <input type="text" class="form-control" id="floatingInput" placeholder="username" required>
+            <label for="floatingInput">Username</label>
+        </div>
+        <div class="form-floating">
+            <input type="date" class="form-control" id="floatingInput" required>
+            <label for="floatingInput">Tanggal Lahir</label>
+          </div>
+        <div class="form-floating">
           <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
-          <label for="floatingPassword">Sandi</label>
+          <label for="floatingPassword">Password</label>
         </div>
         <div class="checkbox mb-3">
           <label>
-            <input type="checkbox" value="remember-me"> Simpan akun ke komputer ini
+            <input type="checkbox" value="agree-agreement" required> Saya setuju dengan ketentuan yang berlaku.
           </label>
         </div>
+        <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="commitment" required> Data yang saya isikan adalah benar.
+            </label>
+          </div>
         <button class="w-100 btn btn-lg btn-primary" type="submit">Masuk</button>
-        <p class="signup-message"><strong>Belum punya akun? <a href="./signup.html">Daftar di sini!</a></strong></p>
+        <p class="signup-message"><strong>Sudah punya akun? <a href="./login.html">Masuk di sini!</a></strong></p>
         <p class="mt-5 mb-3 text-muted">&copy; 2Dev 2021 - all rights reserved</p>
       </form>
     </main>

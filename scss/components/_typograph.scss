@@ -22,6 +22,12 @@
     font-size: .75rem;
 }
 
+.signup-message {
+    color: $primary;
+    font-size: .9rem;
+    margin-top: 1.125rem;
+}
+
 @media only screen and (max-width: 640px) {
     .display-2 {
         margin-bottom: 1rem;

@@ -11179,6 +11179,12 @@ textarea.form-control-lg {
   font-size: 0.75rem;
 }
 
+.signup-message {
+  color: #6b7b8c;
+  font-size: 0.9rem;
+  margin-top: 1.125rem;
+}
+
 @media only screen and (max-width: 640px) {
   .display-2 {
     margin-bottom: 1rem;
