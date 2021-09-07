@@ -1,15 +1,43 @@
+@use '../custom' as *;
+
 .display-2 {
     margin-bottom: 1rem;
     text-transform: capitalize;
 
     &--intro {
         display: inline-block;
-        font-weight: 700;
+        font-weight: 600;
+        font-size: 4.25rem;
     }
 
     &--description {
         display: block;
         font-size: 1.625rem;
         margin-top: 1.125rem;
+    }
+}
+
+.red-message {
+    color: $primary;
+    font-size: .75rem;
+}
+
+@media only screen and (max-width: 640px) {
+    .display-2 {
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+        text-align: center;
+    
+        &--intro {
+            display: inline-block;
+            font-weight: 600;
+            font-size: 2.75rem;
+        }
+    
+        &--description {
+            display: block;
+            font-size: 1.125rem;
+            margin-top: .9rem;
+        }
     }
 }

@@ -57,3 +57,12 @@
     width: 4.2rem;
     height: 4.2rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .intros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
