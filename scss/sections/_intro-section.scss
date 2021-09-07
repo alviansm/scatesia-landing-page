@@ -1,0 +1,59 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.intro-section {
+    @include gradient;
+    padding: 7.25rem 0 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+.intros {
+    
+    .video-box {
+        position: relative;
+        a {
+            @include absoluteCenter;
+            i {
+                font-size: 4.175rem;
+                color: $primary;
+                transition: all 400ms linear;
+            }
+        }
+    }
+
+    .glightbox:hover {
+        i {
+            color: $gray-300;
+        }
+    }
+}
+
+.border-animation {
+    position: absolute;
+    border: 0.35rem solid $gray-600;
+    border-radius: 50%;
+    top: 0%;
+    left: 0%;
+    width: 4.2rem;
+    height: 4.2rem;
+    animation: pulse-border 1.425s linear infinite;
+
+    &--border-1 {
+        animation-delay: 1s;
+    }
+
+    &--border-2 {
+        animation-delay: 1.5s;
+    }
+}
+
+.border-base {
+    position: absolute;
+    border: 0.35rem solid $gray-600;
+    border-radius: 50%;
+    top: 0%;
+    left: 0%;
+    width: 4.2rem;
+    height: 4.2rem;
+}
