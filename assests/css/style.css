@@ -11218,8 +11218,21 @@ textarea.form-control-lg {
     margin-top: 0.9rem;
   }
 }
-.infodesk-header {
-  padding-top: 3rem;
+.icon-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.features-head--icon {
+  color: #6b7b8c;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+.features-head--text {
+  color: #6b7b8c;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 .intro-section {
@@ -11353,6 +11366,16 @@ html {
 
 .service-five:hover {
   background-color: sandybrown;
+  padding: 1.75rem;
+}
+
+.service-six {
+  background-color: skyblue;
+  padding: 1.75rem;
+}
+
+.service-six:hover {
+  background-color: royalblue;
   padding: 1.75rem;
 }
 
