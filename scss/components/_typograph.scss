@@ -46,6 +46,14 @@
     margin-top: 1.125rem;
 }
 
+.th-section-one {
+    color: $primary-section;
+}
+
+.th-section-two {
+    color: $secondary-section;
+}
+
 @media only screen and (max-width: 640px) {
     .display-2 {
         margin-bottom: 1rem;
