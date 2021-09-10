@@ -8,12 +8,10 @@
 @use './components/typograph';
 
 // Import sections
-@use './sections/companies';
-@use './sections/faq';
-@use './sections/footer';
-@use './sections/get-started';
+@use './sections/infodesk';
 @use './sections/intro-section';
 @use './sections/navbar';
 @use './sections/services';
-@use './sections/testimonials';
-@use './sign-in.scss';
+
+// Import another page styling
+@use './sign-in';
