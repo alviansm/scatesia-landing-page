@@ -1,0 +1,20 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.footer {
+    @include gradient;
+    margin-bottom: 0%;
+}
+
+footer {
+    border-top: 1px solid $gray-400;
+    padding-left: 2rem;
+
+    p {
+        margin-top: 1rem;
+        color: $gray-300;
+        font-size: .9rem;
+        font-weight: 600;
+        line-height: 1.5rem;
+    }
+}

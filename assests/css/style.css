@@ -11267,6 +11267,23 @@ textarea.form-control-lg {
   font-weight: 600;
 }
 
+.footer {
+  background: linear-gradient(to right, rgba(107, 123, 140, 0.85), rgba(59, 77, 97, 0.9));
+  margin-bottom: 0%;
+}
+
+footer {
+  border-top: 1px solid #ced4da;
+  padding-left: 2rem;
+}
+footer p {
+  margin-top: 1rem;
+  color: #dee2e6;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
 .intro-section {
   background: linear-gradient(to right, rgba(107, 123, 140, 0.85), rgba(59, 77, 97, 0.9));
   padding: 7.25rem 0 0 0;
