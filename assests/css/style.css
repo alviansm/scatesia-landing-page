@@ -11250,6 +11250,17 @@ textarea.form-control-lg {
   background-color: #333333;
 }
 
+.contact i {
+  color: #333333;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.contact h3 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #6b7b8c;
+}
+
 .icon-box {
   display: flex;
   flex-direction: row;
