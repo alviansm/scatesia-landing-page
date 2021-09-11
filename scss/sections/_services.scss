@@ -38,7 +38,7 @@
     }
 
     a{
-        background-color: $gray-500;
+        background-color: $yellow-light;
         padding: .35rem;
         text-decoration: none;
         font-size: .9rem;
@@ -47,7 +47,7 @@
         transition: 150ms all ease-in;
         
         &:hover {
-            background-color: $gray-700;
+            background-color: $yellow-dark;
             transform: translateY(100%);
             color: $white;
         }
