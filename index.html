@@ -100,7 +100,7 @@
         
         <div class="container pt-lg-5 pt-3 pt-sm-2">
 
-          <div class="infodesk-header">
+          <div class="infodesk-header" data-aos="fade-left">
             <h2 class="display-3 text-center section-head mb-lg-4 mb-3 m-sm-1 th-section-one">
               <span class="display-3--head">Fitur</span>
               <span class="display-3--nexthead">
@@ -110,7 +110,7 @@
           </div>
 
           <!-- Feature Icons -->
-          <div class="row feature-icons">
+          <div class="row feature-icons" data-aos="fade-up">
 
             <div class="row">
 
@@ -140,7 +140,7 @@
                   <div class="col-md-6 icon-box">
                     <i class="ri-medal-2-line features-head--icon"></i>
                     <div>
-                      <h4 class="features-head--text">Dapatkan perhatian pelanggan</h4>
+                      <h4 class="features-head--text">Tingkatkan kredibilitas</h4>
                       <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
                     </div>
                   </div>
@@ -180,7 +180,7 @@
 
       <div class="container pt-lg-5 pt-3 pt-sm-2">
 
-        <div class="services-header">
+        <div class="services-header" data-aos="fade-right">
 
           <h2 class="display-3 text-center section-head mb-lg-4 mb-3 m-sm-1 th-section-two">
             <span class="display-3--head">Layanan</span>
@@ -189,7 +189,7 @@
             </span>
           </h2>
 
-          <div class="row py-3 row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="row py-3 row-cols-1 row-cols-md-2 row-cols-lg-3" data-aos="fade-left">
 
             <div class="feature col service-one">
               <div class="feature-icon">
@@ -280,7 +280,7 @@
 
     <section id="benefits" class="benefits">
 
-      <div class="container pt-lg-5 pt-3 pt-sm-2">
+      <div class="container pt-lg-5 pt-3 pt-sm-2" data-aos="fade-up">
 
         <h2 class="display-3 text-center section-head mb-lg-4 mb-3 m-sm-1 th-section-two">
           <span class="display-3--head">Benefit</span>
@@ -291,11 +291,11 @@
 
         <div class="row">
 
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-right">
             <img src="./images/features.png" class="img-fluid" alt="">
           </div>
 
-          <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+          <div class="col-lg-6 mt-5 mt-lg-0 d-flex" data-aos="fade-left">
             <div class="row align-self-center gy-4">
 
               <div class="col-md-6">
@@ -350,14 +350,14 @@
 
       <div class="container pt-lg-5 pt-3 pt-sm-2">
 
-        <h2 class="display-3 text-center section-head mb-lg-4 mb-3 m-sm-1 th-section-two">
+        <h2 class="display-3 text-center section-head mb-lg-4 mb-3 m-sm-1 th-section-two" data-aos="fade-left">
           <span class="display-3--head">Portofolio</span>
           <span class="display-3--nexthead">
               Kaleidoskop layanan kami
           </span>
         </h2>
 
-        <div class="row">
+        <div class="row" data-aos="fade-left">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters" class="filter-menu">
               <li data-filter="all" class="list-filter filter-active ">Semua</li>
@@ -368,7 +368,7 @@
           </div>
         </div>
 
-        <div class="row gy-4 portfolio-container">
+        <div class="row gy-4 portfolio-container" data-aos="fade-up">
 
           <div class="col-lg-4 col-md-6 portfolio-item" data-item="website">
             <div class="portfolio-wrap">
@@ -461,14 +461,14 @@
 
       <div class="container">
 
-        <h2 class="display-3 text-center section-head mb-lg-4 mb-3 m-sm-1 th-section-two">
+        <h2 class="display-3 text-center section-head mb-lg-4 mb-3 m-sm-1 th-section-two" data-aos="fade-right">
           <span class="display-3--head">Tim</span>
           <span class="display-3--nexthead">
               Siap membantu Anda
           </span>
         </h2>
 
-        <div class="row gy-4 d-flex justify-content-center text-center">
+        <div class="row gy-4 d-flex justify-content-center text-center" data-aos="fade-up">
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch gx-lg-3 gx-2 col-team">
             <div class="member">
@@ -541,7 +541,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact" id="contact">
+    <section class="contact" id="contact" data-aos="fade-right">
       <div class="container pt-lg-5 pt-3 pt-sm-2">
 
         <h2 class="display-3 text-center section-head mb-lg-4 mb-3 m-sm-1 th-section-two">
@@ -635,12 +635,19 @@
       </div>
     </section>
 
-    <!-- Bootstrap Bundle with Popper -->
+    <!-- Javascript -->
     <script src="./assests/vendor/js/glightbox.js"></script>
     <script type="text/javascript" src="./assests/js/bootstrap.bundle.js"></script>
     <script type="text/javascript" src="./assests/vendor/js/greeting-hour.js"></script>
     <script type="text/javascript" src="./assests/js/portfolio-lightbox.js"></script>
     <script type="text/javascript" src="./assests/js/portfolio-filter.js"></script>
     <script type="text/javascript" src="./assests/vendor/aos/aos.js"></script>
+    <script type="text/javascript">
+      AOS.init({
+        offset: 100,
+        duration: 1000
+      });
+    </script>
+
   </body>
 </html>
