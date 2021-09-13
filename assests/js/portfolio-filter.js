@@ -9,7 +9,6 @@ for(let i = 0; i < sortBtn.length; i++){
 
         this.classList.add('filter-active');
         
-
         let targetData = this.getAttribute('data-filter');
 
         for(let k = 0; k < sortItem.length; k++){
