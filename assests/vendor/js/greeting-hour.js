@@ -10,13 +10,13 @@ class select {
 
     setGreeting () {
         if (currentHour < 10) {
-            this._element.innerText = "Good Morning!";
+            this._element.innerText = "Hi, Good Morning!";
         } else if (currentHour < 15) {
-            this._element.innerText = "Selamat Siang!";
+            this._element.innerText = "Hello There! Good Day!";
         } else if (currentHour < 18) {
-            this._element.innerText = "Selamat Sore!";
+            this._element.innerText = "Stay Safe, Good Afternoon!";
         } else {
-            this._element.innerText = "Selamat Malam!";
+            this._element.innerText = "Good Evening...";
         }
     }
 
