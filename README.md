@@ -1,8 +1,8 @@
 ### Source Code of TwoDev
 
 author:
-* _alviansm_
+* _scatesia_
 
 ___
 
-link -> https://alviansm.github.io/two-dev/
+link -> https://alviansm.github.io/scatesia-landing-page/

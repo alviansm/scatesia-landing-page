@@ -18,7 +18,7 @@
   </head>
   <body>
     <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+    <nav class="navbar navbar-dark navbar-expand-lg menu shadow fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#home">
               <img src="./images/navbar-logo.png" alt="logo image" width="128">
@@ -26,10 +26,10 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-end show" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Beranda</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#services">Services</a>
@@ -550,34 +550,41 @@
           </span>
         </h2>
 
-        <div class="row gy-4">
-          <div class="col-lg-6">
-          <div class="row gy-4">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
               <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-telephone"></i>
-                  <h3>WhatsApp</h3>
-                  <p>+6285974461297</p>
-                </div>
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location</h4>
+                <p>Remote</p>
               </div>
               <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-envelope"></i>
-                  <h3>Email</h3>
-                  <p>sandalproject7@gmail.com</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-clock"></i>
-                  <h3>Call Us Anytime</h3>
-                  <p>24/7 (Remote)</p>
-                </div>
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location</h4>
+                <p>Remote</p>
               </div>
             </div>
           </div>
+          <div class="col-md-6">
+            <form target="_blank" action="https://formsubmit.co/9c80b476e1b950055ff30a2e7c2c257d" method="POST">
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark btn-block">Submit Form</button>
+            </form>
+          </div>
         </div>
-      </div>
+
     </section>
 
     <!-- Footer -->
@@ -617,13 +624,12 @@
     </section>
 
     <!-- Javascript -->
+    <script type="text/javascript" src="./assests/vendor/aos/aos.js"></script>
     <script src="./assests/vendor/js/glightbox.js"></script>
     <script src="./assests/vendor/popper.js"></script>
     <script type="text/javascript" src="./assests/js/bootstrap.bundle.js"></script>
-    <script type="text/javascript" src="./assests/vendor/js/greeting-hour.js"></script>
     <script type="text/javascript" src="./assests/js/portfolio-lightbox.js"></script>
     <script type="text/javascript" src="./assests/js/portfolio-filter.js"></script>
-    <script type="text/javascript" src="./assests/vendor/aos/aos.js"></script>
     <script type="text/javascript">
       var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
       var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
