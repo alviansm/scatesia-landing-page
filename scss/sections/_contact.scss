@@ -12,5 +12,13 @@
         font-size: 1.4rem;
         color: $primary;
     }
+
+    .form-group {
+        input, textarea {
+            background-color: $gray-300;
+            color: $secondary-section;
+            font-weight: 800;
+        }
+    }
 }
 
