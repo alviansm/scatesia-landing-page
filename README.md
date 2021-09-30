@@ -6,4 +6,4 @@ author:
 
 ___
 
-link -> https://alviansm.github.io/scatesia-landing-page/
+link -> https://www.scatesia.com
