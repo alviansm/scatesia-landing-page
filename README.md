@@ -6,4 +6,4 @@ author:
 
 ___
 
-link -> scatesia.com
+link -> www.scatesia.com
