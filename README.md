@@ -1,4 +1,5 @@
-### Source Code of TwoDev
+### Source Code of Scatesia Landing Page
+## Team of Digital Media Solutions
 
 author:
 * _scatesia_
