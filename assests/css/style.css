@@ -11274,6 +11274,12 @@ textarea.form-control-lg {
   color: #333333;
   font-weight: 800;
 }
+.contact .container a {
+  text-decoration: none;
+}
+.contact .container a:hover {
+  color: #f5ae1f;
+}
 
 .icon-box {
   display: flex;
